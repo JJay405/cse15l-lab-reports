@@ -1,5 +1,5 @@
 ![Image](Capture.PNG)
 
-For the CD command(Change Directory), when we ran "cd lecture1" in main directory, it moved directory to lecture1, when ran "cd messages", it moved to messages directory, when ran "cd" in any directory, it moves to the main directory.
+For the CD command(Change Directory), when running "cd lecture1" in the home directory, it switches the working directory to lecture1, when running "cd messages", it switches to the messages directory, when running "cd" in any working directory, it switches the current working directory to the home directory.
 
 ![Image](Capture2.PNG)
