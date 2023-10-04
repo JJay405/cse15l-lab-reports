@@ -1,10 +1,13 @@
+---------------------------------------------------------------------------------------
+**cd**
+
 ![Image](Capture.PNG)
 
 For the "cd" command(Change Directory), when running "cd lecture1" in the home directory, it switches the working directory to lecture1, when running "cd messages" in the lecture1 directory, it switches the working directory from lecture1 to the messages, when running "cd" in any working directory, it switches the current working directory to the home directory.
 
 ------------------------------------------------------------------------------------------------------------------
 
-
+**ls**
 
 ![Image](Capture2.PNG)
 
@@ -12,7 +15,7 @@ For the "ls" command(List), when running "ls" in any working directory, it lists
 
 ---------------------------------------------------------------------------------------------------------------
 
-
+**cat**
 
 ![Image](Capture3.PNG)
 
