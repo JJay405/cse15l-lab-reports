@@ -1,5 +1,5 @@
 
-## Part 1:
+# Part 1:
 
 
 ![Image](Lab3-1.PNG)
