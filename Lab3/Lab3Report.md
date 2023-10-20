@@ -52,4 +52,4 @@ This is the code I used to fix the bug:
 
 # Part 3:
 
-    Most of the stuff we did in this two-week lab is new to me, like creating a web server, making md files, and using JUnit to debug, etc.
+Most of the stuff we did in this two-week lab is new to me, like creating a web server, making md files, and using JUnit to debug, etc.
