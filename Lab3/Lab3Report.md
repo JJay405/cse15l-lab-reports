@@ -30,3 +30,26 @@ This is my input for failure:
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 56 }, input1);
 	}
+
+Here are the screenshots of the pass/fail tests:
+
+![Image](Lab3-testFail.PNG)
+![Image](Lab3-testPass.PNG)
+
+This is the code that is causing the problem:
+
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+This is the code I used to fix the bug:
+     
+     int n = arr.length;  
+     for(int i = 0; i < n / 2; i++){
+      int temp = arr[i];
+      arr[i] = arr[n - i - 1];
+      arr[n - i - 1] = temp;
+    } 
+
+# Part 3:
+
+    Most of the stuff we did in this two-week lab is new to me, like creating a web server, making md files, and using JUnit to debug, etc.
