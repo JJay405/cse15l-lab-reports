@@ -1,7 +1,7 @@
 # Part 1:
 
 
-![Image](Lab3-1.PNG)
+![Image](3-1.PNG)
 
 
 ![Image](Lab3.PNG)
