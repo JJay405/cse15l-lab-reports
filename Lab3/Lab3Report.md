@@ -40,4 +40,26 @@ This is the code I used to fix the bug:
 
 For part 2, I picked the "find" command. 
 
+-name:
+
 	$ find -name "*.java"
+ 	        or	
+	$ find -name "pmed.0020281.txt"
+
+![Image](5-1.PNG)
+![Image](5-2.PNG)
+
+The "find -name" command is useful when you want to search for files base on the specific names. It will print the result of the file locations.
+
+-type:
+
+	$ find -type f
+ 	       or
+ 	$ find -type d
+The "find -type f" command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
+
+-size:
+
+	$ find -size 1k	
+ 	       or
+	$ find -size -1k
