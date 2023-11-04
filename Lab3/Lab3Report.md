@@ -1,4 +1,6 @@
-For part 2, I picked the bug in reverseInPlace() of ArrayExamples.java. 
+# Part 1:
+
+For part 1, I picked the bug in reverseInPlace() of ArrayExamples.java. 
 
 This is my input for failure:
 
@@ -34,3 +36,5 @@ This is the code I used to fix the bug:
       arr[i] = arr[n - i - 1];
       arr[n - i - 1] = temp;
     } 
+# Part 2:
+
