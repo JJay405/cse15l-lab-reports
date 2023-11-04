@@ -56,7 +56,7 @@ The "find -name" command is useful when you want to search for files based on th
 	$ find -type f
  	       or
  	$ find -type d
-The "-type" command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
+The "-type -f" command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
 
 -size:
 
