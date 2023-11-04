@@ -38,3 +38,6 @@ This is the code I used to fix the bug:
     } 
 # Part 2:
 
+For part 2, I picked the "find" command. 
+
+	$ find -name "*.java"
