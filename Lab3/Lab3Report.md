@@ -53,7 +53,7 @@ For part 2, I picked the `find` command.
 ![Image](5-1.PNG)
 ![Image](5-2.PNG)
 
-The "find -name" command is useful when you want to search for files based on specific names. It will print the result of the file locations.
+The `find -name` command is useful when you want to search for files based on specific names. It will print the result of the file locations.
 
 -type:
 ```
@@ -61,7 +61,7 @@ The "find -name" command is useful when you want to search for files based on sp
  	       or
  	$ find -type d
 ```  
-The "-type -f" command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
+The `-type -f` command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
 
 -size:
 ```
@@ -72,7 +72,7 @@ The "-type -f" command is useful when you want to list all files in a directory 
 ![Image](5-3.PNG)
 ![Image](5-4.PNG)
 
-The "-size" option is useful when you want to list the files based on their size, we can also use the "+ or -" signs in front of the size as greater than the size or less than the size.
+The `-size` option is useful when you want to list the files based on their size, we can also use the "+ or -" signs in front of the size as greater than the size or less than the size.
 
 -mtime:
 ```
@@ -80,7 +80,7 @@ The "-size" option is useful when you want to list the files based on their size
  	      or
 	$ find -mtime +30
 ``` 
- The "-mtime" will list the files based on the modification time. The number behind the command indicates the number of days. 
+ The `-mtime` will list the files based on the modification time. The number behind the command indicates the number of days. 
 
 
 The website I used to find all the information: [https://tecadmin.net/linux-find-command-with-examples/].
