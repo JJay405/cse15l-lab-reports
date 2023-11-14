@@ -1,23 +1,25 @@
 # Part 1:
 
-For part 1, I picked the bug in reverseInPlace() of ArrayExamples.java. 
+For part 1, I picked the bug in `reverseInPlace()` of ArrayExamples.java. 
 
 This is my input for failure:
 
-    public void testReverseInPlace() {
-    int[] input1 = { 56,9 };
+```java
+  public void testReverseInPlace() {
+    int[] input1 = { 56, 9 };
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 9,56 }, input1);
-	}
-
+    assertArrayEquals(new int[]{ 9, 56 }, input1);
+}
+```
  And input with no failure:
 
-     public void testReverseInPlace() {
+```java
+  public void testReverseInPlace() {
     int[] input1 = { 56 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 56 }, input1);
-	}
-
+}
+```
 Here are the screenshots of the pass/fail tests:
 
 ![Image](Lab3-testFail.PNG)
@@ -38,7 +40,7 @@ This is the code I used to fix the bug:
     } 
 # Part 2:
 
-For part 2, I picked the "find" command. 
+For part 2, I picked the `find` command. 
 
 -name:
 
@@ -56,6 +58,7 @@ The "find -name" command is useful when you want to search for files based on th
 	$ find -type f
  	       or
  	$ find -type d
+  
 The "-type -f" command is useful when you want to list all files in a directory and sub-directory. "find -type d" will list all the sub-directories. 
 
 -size:
@@ -63,8 +66,10 @@ The "-type -f" command is useful when you want to list all files in a directory 
 	$ find -size 1k	
  	       or
 	$ find -size -1k
+ 
 ![Image](5-3.PNG)
 ![Image](5-4.PNG)
+
 The "-size" option is useful when you want to list the files based on their size, we can also use the "+ or -" signs in front of the size as greater than the size or less than the size.
 
 -mtime:
@@ -72,6 +77,7 @@ The "-size" option is useful when you want to list the files based on their size
 	$ find -mtime -1
  	      or
 	$ find -mtime +30
+ 
  The "-mtime" will list the files based on the modification time. The number behind the command indicates the number of days. 
 
 
