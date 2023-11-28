@@ -17,8 +17,10 @@
    ![Image](7-3.PNG)
 
 5. ```<up><up><up><up> <enter>``` command: ```vim ListExamples.java``` was 4 command up from search history, used the up arrow to access it.
-6. ```<x><i><2><esc><:><w><q> <enter> ``` when using vim to open the ```ListExamples.java``` file, the cursor was already at the '1', so I just changed it to '2' without moving around the cursor.
-7. ```<up><up><up> <enter> ``` command: ```bash test.sh``` was 3 command up from search history, used the up arrow to access it. 
+   ![Image](7-10.PNG)
+7. ```<x><i><2><esc><:><w><q> <enter> ``` when using vim to open the ```ListExamples.java``` file, the cursor was already at the '1', so I just changed it to '2' without moving around the cursor.
+   ![Image](7-11.PNG) ![Image](7-12.PNG)
+9. ```<up><up><up> <enter> ``` command: ```bash test.sh``` was 3 command up from search history, used the up arrow to access it. 
 
 
    
@@ -27,11 +29,11 @@
    
     ![Image](7-5.PNG)
 
-8. ```<up><up><up><up><up><up><up> <enter> ``` command: ```git add ListExamples.java``` was 7 command up from search history, used the up arrow to access it.
+10. ```<up><up><up><up><up><up><up> <enter> ``` command: ```git add ListExamples.java``` was 7 command up from search history, used the up arrow to access it.
 
     ![Image](7-7.PNG)
 
-9. ```<g><i><t><space><c><o><m><m><i><t> <enter>``` enter ``` git commit ```, then ```<i><L><a><b><R><e><p><o><r><t> <Esc><:><w><q> ``` open vim, edit commit message, save and quit.
+11. ```<g><i><t><space><c><o><m><m><i><t> <enter>``` enter ``` git commit ```, then ```<i><L><a><b><R><e><p><o><r><t> <Esc><:><w><q> ``` open vim, edit commit message, save and quit.
 
     ![Image](7-8.PNG)
 
