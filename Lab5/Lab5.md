@@ -36,7 +36,7 @@ below for the change and result. Thank you!
 
 
 At the end:
-For this scenario, I used two java files: Test.java which has the main method and the inputs, and PersonSorter.java which has the ```compareTo()``` method. Both files are in the home/lab3/Lab5 directory. I put the javac and java commands in the test.sh to compile and run the Test.java after I make changes. What I did to fix the bug was I swapped the words "this" and "other" in the return statement of ```compareTo()``` method. 
+For this scenario, I used two java files: Test.java which has the main method and the inputs, and PersonSorter.java which has the ```compareTo()``` method. Both files are in the home/lab3/Lab5 directory. I put the ```javac``` and ```java``` commands in the test.sh so I can use ```bash test.sh```to easily compile and run the test after I make changes. What I did to fix the bug was I swapped the words "this" and "other" in the return statement of ```compareTo()``` method. 
 
 
 
