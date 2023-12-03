@@ -33,3 +33,16 @@ below for the change and result. Thank you!
 ```
 ![Image](8-3.PNG)
 ![Image](8-4.PNG)
+
+
+
+
+
+# Part 2:
+
+Things I learned from the second half of this course: how to use vim to edit text, how to push to GitHub
+
+
+
+
+
