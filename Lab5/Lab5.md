@@ -21,16 +21,18 @@ elements in ascending order? Thank you.
 TA response:
 
 ```
-Hi there! Thanks for reaching out.  It looks like the issue might be related to the way you're comparing two elements, check
-your compareTo() method and see if that can fix your problem. 
+Hi there! Thanks for reaching out.  It looks like the issue might be related to the way
+you're comparing two elements, check your compareTo() method and see if that can fix
+your problem. 
 ```
 
 My response:
 
 ```
-You are right about my compareTo() method, the return statement is wrong and made the result in revered order. 
-I made some changes(swap "this" and "other" in the return statement) to the compareTo() method and it fixed the issue. See
-below for the change and result. Thank you!
+You are right about my compareTo() method, the return statement is wrong and made the
+result in revered order. I made some changes(swap "this" and "other" in the return
+statement) to the compareTo() method and it fixed the issue. See below for the change
+and result. Thank you!
 ```
 ![Image](8-3.PNG)
 ![Image](8-4.PNG)
