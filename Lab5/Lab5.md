@@ -7,9 +7,9 @@ Title: Help Needed - Unexpected Output in Java Program
 
 Hey everyone,
 
-I'm currently working on a class assignment. I've attached a screenshot of the code and the output below. The program is
-supposed to sort the elements in an array, but the result is not what I expected and it seems to be in a reversed order.
-I've reviewed my code, and I'm stuck.
+I'm currently working on a class assignment. I've attached a screenshot of the code and the output below.
+The program is supposed to sort the elements in an array, but the result is not what I expected and it
+seems to be in a reversed order. I've reviewed my code, and I'm stuck.
 Can someone please take a look and help me make it sorting the elements in ascending order? Thank you.
 ```
 ![Image](8-5.PNG)
