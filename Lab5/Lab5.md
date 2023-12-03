@@ -12,12 +12,12 @@ supposed to sort the elements in an array, but the result is not what I expected
 I've reviewed my code, and I'm stuck.
 Can someone please take a look and help me make it sorting the elements in ascending order? Thank you.
 ```
-![Image](Capture1.PNG)
+![Image](8-5.PNG)
 ![Image](8-1.PNG)
 ![Image](8-2.PNG)
 ![Image](Capture-2.PNG)
 
-TA Response:
+TA response:
 
 ```
 Hi there! Thanks for reaching out.  It looks like the issue might be related to the way you're comparing two elements, check
@@ -36,7 +36,7 @@ below for the change and result. Thank you!
 
 
 At the end:
-For this scenario, I used two java files: Test.java which has the main method and the inputs 
+For this scenario, I used two java files: Test.java which has the main method and the inputs, and PersonSorter.java which has the ```compareTo()``` method. Both files are in the home/lab3/Lab5 directory. I put the javac and java commands in the test.sh to compile and run the Test.java after I make changes. What I did to fix the bug was I swapped the words "this" and "other" in the return statement of ```compareTo()``` method. 
 
 
 
